@@ -1,5 +1,9 @@
-var trykke = document.querySelector("#knapp");
+var trykke = document.getElementById("knapp");
+var fargeEl = document.getElementById("inputt");
+var bakgrunn = document.getElementsByClassName("kropp")
+
+trykke.addEventListener("click", byttFarge);
 
 function byttFarge() {
-  var inputt = document.querySelector("#inputt").value;
+  bakgrunn.style.color = fargeEl.value
 }
