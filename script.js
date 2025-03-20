@@ -23,6 +23,6 @@ function ifTest() {
   if (tall.value >= 18) {
     tekst.innerHTML = "du er over 18 år!";
   } else {
-    tekst.innerHTML = "du er veldig moden for alderen din ;)";
+    tekst.innerHTML = "du er under 18 år!";
   }
 }
